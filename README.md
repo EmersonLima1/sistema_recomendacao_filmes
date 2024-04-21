@@ -1,5 +1,7 @@
 # Sistema de Recomendação de Filmes
 
+![](https://github.com/EmersonLima1/sistema_recomendacao_filmes/blob/main/imagem.jpg)
+
 <div align="justify">
 
 Este é um sistema de recomendação de filmes baseado em conteúdo, que utiliza técnicas de processamento de linguagem natural (NLP) e similaridade de cosseno para sugerir filmes semelhantes com base em uma entrada fornecida pelo usuário.
@@ -60,7 +62,7 @@ Quanto mais próximo o valor da similaridade de cosseno estiver de 1, mais simil
 
 #### Uso em Conjunto com a Matriz TF-IDF
 
-Na função get_recommendations, a similaridade de cosseno é calculada entre o filme selecionado (representado pelo seu vetor na matriz TF-IDF) e todos os outros filmes na coleção (também representados pelos seus vetores na matriz TF-IDF).
+Na função obter_recomendacoes, a similaridade de cosseno é calculada entre o filme selecionado (representado pelo seu vetor na matriz TF-IDF) e todos os outros filmes na coleção (também representados pelos seus vetores na matriz TF-IDF).
 
 - Primeiro, é encontrado o índice do filme selecionado no DataFrame df.
 - Em seguida, é calculada a similaridade de cosseno entre o vetor do filme selecionado (`tfidf_matrix[idx]`) e todos os outros vetores de filmes na matriz TF-IDF (tfidf_matrix). Isso é feito usando a função cosine_similarity do scikit-learn.
