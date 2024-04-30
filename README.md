@@ -72,6 +72,14 @@ Na função obter_recomendacoes, a similaridade de cosseno é calculada entre o 
 
 A similaridade de cosseno ajuda a encontrar os filmes mais similares ao filme selecionado com base em seus conteúdos textuais representados pela matriz TF-IDF.
 
+## Ferramenta Web
+
+
+
+https://github.com/EmersonLima1/sistema_recomendacao_filmes/assets/74200172/de0ab194-7b39-4f5a-9bb6-0c4a645eb21c
+
+
+
 ## Conclusão
 
 Em suma, o sistema de recomendação de filmes baseado em conteúdo utiliza técnicas avançadas de processamento de linguagem natural e similaridade de cosseno para oferecer sugestões personalizadas aos usuários. Através da criação de uma matriz TF-IDF, que captura a importância relativa das palavras nos documentos, e da comparação dos vetores TF-IDF usando a similaridade de cosseno, o sistema é capaz de calcular recomendações precisas, sugerindo filmes com conteúdos textuais semelhantes aos filmes de entrada dos usuários. Essa abordagem garante uma experiência de recomendação relevante e personalizada, ajudando os usuários a descobrir novos filmes com base em seus interesses individuais.
